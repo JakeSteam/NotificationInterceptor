@@ -14,4 +14,14 @@ class NotificationListener : NotificationListenerService() {
         val b = sbn
     }
 
+    override fun onListenerConnected() {
+        super.onListenerConnected()
+        val c = 10
+    }
+
+    override fun onListenerDisconnected() {
+        super.onListenerDisconnected()
+        val d = 10
+    }
+
 }
